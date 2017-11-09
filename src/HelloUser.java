@@ -1,7 +1,16 @@
 
 public class HelloUser {
-
+//comment for change
+	String userName = "no Username";
 	public void printAnswer() {
-	System.out.println("Hello ASE2017 - How are you? Fine, thanks");
+	System.out.println("Hello " + userName +"!");
 	}
+	public String getUserName() {
+		return userName;
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+	
+	
 }
