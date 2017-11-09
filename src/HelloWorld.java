@@ -7,7 +7,7 @@ public class HelloWorld {
 		// TODO Auto-generated method stub
 		HelloUser helloUser = new HelloUser();
 		
-		System.out.println("Hello ASE2017 - How are you now? :)");
+		System.out.println("Hello ASE2017 - How are you today? ;)");
 		System.out.print("Please enter your name: ");
 		String name = new Scanner(System.in).nextLine();
 		helloUser.setUserName(name);
